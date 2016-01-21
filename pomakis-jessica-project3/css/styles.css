@@ -1,0 +1,154 @@
+/* main styles */
+body {
+	background: url("../images/pyramid.gif") top fixed #1275B0;
+	width: 88%;
+	margin: 0 auto;
+	border: 2px solid #000;
+	border-radius: 25px;
+	box-shadow: 2px;
+	
+}
+	
+#content { 
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+19,e2efff+100 */
+background: rgb(247,247,247); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(247,247,247,1) 19%, rgba(226,239,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 19%,rgba(226,239,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(247,247,247,1) 19%,rgba(226,239,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e2efff',GradientType=0 ); /* IE6-9 */
+
+	padding: 20px 60px 60px 60px;
+	border-radius: 25px;
+	overflow: auto;
+}
+
+#current_special {
+	width: 26%;
+	float: right;
+	padding-right: 5%;
+	
+}
+
+.main {
+	width: 53%;
+	float: right;
+	margin-right: 5%;
+	padding-left: 5%;
+	
+	
+}
+		
+/* text and content */
+
+	
+h1, h2, h3 {
+	text-align: center;
+}	
+
+h1 {
+	font-family: 'Exo', Arial, sans-serif;
+	font-weight: 800;
+	text-shadow: 2px 2px rgba(49, 92, 116, .7);
+}
+
+h2 {
+	font-family: 'Exo', Arial, sans-serif;
+	font-weight: 700;
+	color: #00648C;
+}
+
+h3 {
+	font-family: 'Exo', Arial, sans-serif;
+	font-weight: 600;
+	color: #00648C;
+}
+	
+h4 {
+	font-family: 'Exo', Arial, sans-serif;
+	font-weight: 500;	
+	color: #00648C;
+}
+	
+p {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: .875em;
+	line-height: 1.2em;
+}
+	
+blockquote {
+	background: url("../images/icon.png") no-repeat center left;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: .875em;
+	font-style: italic;
+	padding-left: 30px;
+}
+	
+#tagline {
+	text-align: center;
+}
+	
+	
+/* layout and navigation */
+
+
+ol { 
+	list-style-type: lower-alpha;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: .813em;	
+}	
+
+#mainmenu>li {
+	margin-left: 10%;
+	text-align: center;
+	list-style: none;
+	display: inline;
+}
+
+#mainmenu {
+	border-top: 2px solid #003945;
+	border-bottom: 2px solid #003945;
+}
+	
+figure {
+	display: block;
+	margin: 5% auto;
+	text-align: center;
+}
+
+img {
+	border: 1px solid #003945;
+}
+	
+#footer {
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: .75em;
+}
+	
+	
+/* links */
+
+	
+a:link {
+	font-family: Verdana, Arial, sans-serif;
+	text-decoration: none;
+	color: #456169;
+}
+
+a:visited {
+	font-family: Verdana, Arial, sans-serif;
+	text-decoration: none;
+	color: #0085BA;
+}
+	
+		
+a:hover {
+	background-color: #CCE3FF;
+}
+	
+a:active {
+	font-family: Verdana, Arial, sans-serif;
+	font-style: italic;
+	color: #456169;
+}	
+
